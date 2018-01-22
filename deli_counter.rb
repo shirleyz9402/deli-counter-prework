@@ -10,6 +10,6 @@ end
 def take_a_number(katz_deli, name)
   katz_deli.each do 
     puts "Welcome, #{name}. You are number #{katz_deli.length + 1} in line."
-    katz_deli = katz_deli + 1
+    katz_deli.length = katz_deli.length + 1
   end 
 end 
