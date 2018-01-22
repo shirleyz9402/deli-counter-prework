@@ -13,3 +13,5 @@ def line(katz_deli)
     puts "The line is currently: #{theline.join(" ")}"
   end 
 end 
+
+def now_serving( )
